@@ -1,6 +1,6 @@
-# flutter_app_createfolder
+# flutter_app_createfilefolder
 
-Create File or Folder in Flutter
+Create File or Folder
 
 ## Getting Started
 
