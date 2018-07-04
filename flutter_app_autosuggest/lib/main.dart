@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_autosuggest/search_list.dart';
 import 'package:flutter_app_autosuggest/suggestions_page.dart';
 
 void main() => runApp(new MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primarySwatch: Colors.orange,
       ),
-      home: new SuggestionsPage(),
+      home: new SearchList(),
     );
   }
 }
