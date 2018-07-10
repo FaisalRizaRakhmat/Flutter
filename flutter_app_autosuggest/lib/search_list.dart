@@ -11,7 +11,7 @@ class _SearchListState extends State<SearchList>
 {
   Widget appBarTitle = new Text("Search Sample", style: new TextStyle(color: Colors.white),);
   Icon actionIcon = new Icon(Icons.search, color: Colors.white,);
-  final key = new GlobalKey<ScaffoldState>();
+  //final key = new GlobalKey<ScaffoldState>();
   final TextEditingController _searchQuery = new TextEditingController();
   List<String> _list;
   bool _IsSearching;
@@ -60,7 +60,7 @@ class _SearchListState extends State<SearchList>
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      key: key,
+      //key: key,
       appBar: buildBar(context),
       body: new ListView(
         padding: new EdgeInsets.symmetric(vertical: 8.0),
