@@ -2,6 +2,21 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
 
+
+//Flutter has a image picker plugin(image_picker: "^0.4.5") which allows access to the camera and gallery. such as
+//
+//Future getImage() async {<br/>
+//var image = await ImagePicker.pickImage(source: **ImageSource.gallery**);<br/>
+//setState(() {<br/>
+//_image = image;<br/>
+//});<br/>
+//}<br/>
+//
+//you can change ImageSource.gallery for get image from camera.
+
+//https://stackoverflow.com/questions/49088416/how-do-i-add-a-camera-view-with-image-picker-plugin-for-flutter
+
+
 List<CameraDescription> cameras;
 
 Future<Null> main() async {
