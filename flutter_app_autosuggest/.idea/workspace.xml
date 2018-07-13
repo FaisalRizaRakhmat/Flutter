@@ -33,7 +33,7 @@
       <file leaf-file-name="suggestions_page.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/suggestions_page.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="210">
               <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="28" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
@@ -45,8 +45,8 @@
       <file leaf-file-name="search_list.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/search_list.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-242">
-              <caret line="102" column="49" lean-forward="false" selection-start-line="102" selection-start-column="49" selection-end-line="102" selection-end-column="49" />
+            <state relative-caret-position="680">
+              <caret line="101" column="48" lean-forward="false" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -128,6 +128,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,7 +151,6 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -322,6 +322,44 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/suggestions_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/widget_test.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/search_list.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" column="49" lean-forward="false" selection-start-line="102" selection-start-column="49" selection-end-line="102" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
@@ -372,7 +410,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/suggestions_page.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="210">
           <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="28" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
@@ -382,8 +420,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/search_list.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-242">
-          <caret line="102" column="49" lean-forward="false" selection-start-line="102" selection-start-column="49" selection-end-line="102" selection-end-column="49" />
+        <state relative-caret-position="680">
+          <caret line="101" column="48" lean-forward="false" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="48" />
           <folding />
         </state>
       </provider>
