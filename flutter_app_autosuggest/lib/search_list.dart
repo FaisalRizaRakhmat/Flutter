@@ -23,12 +23,14 @@ class _SearchListState extends State<SearchList>
         setState(() {
           _IsSearching = false;
           _searchText = "";
+          //_handleSearchEnd();
         });
       }
       else {
         setState(() {
           _IsSearching = true;
           _searchText = _searchQuery.text;
+          //_handleSearchStart();
         });
       }
     });
@@ -97,8 +99,8 @@ class _SearchListState extends State<SearchList>
         title: appBarTitle,
         actions: <Widget>[
           new IconButton(icon: actionIcon, onPressed: () {
-            setState(() {
-              if (this.actionIcon.icon == Icons.search) {
+            //setState(() {
+              //if (this.actionIcon.icon == Icons.search) {
                 this.actionIcon = new Icon(Icons.close, color: Colors.white,);
                 this.appBarTitle = new TextField(
                   controller: _searchQuery,
@@ -112,12 +114,12 @@ class _SearchListState extends State<SearchList>
                       hintStyle: new TextStyle(color: Colors.white)
                   ),
                 );
-                _handleSearchStart();
-              }
-              else {
-                _handleSearchEnd();
-              }
-            });
+                //_handleSearchStart();
+              //}
+              //else {
+                //_handleSearchEnd();
+              //}
+            //});
           },),
         ]
     );
