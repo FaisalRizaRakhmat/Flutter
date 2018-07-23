@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "968434609833",
+    "firebase_url": "https://api-project-968434609833.firebaseio.com",
+    "project_id": "api-project-968434609833",
+    "storage_bucket": "api-project-968434609833.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968434609833:android:9733b33b933a3a1e",
+        "android_client_info": {
+          "package_name": "id.co.emobile.flutterappfcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968434609833-r6rfoqh89lmu1rlmnmsfh4icm1qlscg2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.co.emobile.flutterappfcm",
+            "certificate_hash": "17eee686abe4c05832c162b111ab29351cbc3ea5"
+          }
+        },
+        {
+          "client_id": "968434609833-h88mi675t52o9h4emf9u1vjthf8er3m8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-2z7IQMFX_hJOav1LgICU_S3FRagJwSo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968434609833-h88mi675t52o9h4emf9u1vjthf8er3m8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968434609833:android:9eb530a9643e137b",
+        "android_client_info": {
+          "package_name": "id.co.emobile.telkomselsamba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968434609833-8dc6lg7b8mh08knlk8r56m553le3e9oh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.co.emobile.telkomselsamba",
+            "certificate_hash": "17eee686abe4c05832c162b111ab29351cbc3ea5"
+          }
+        },
+        {
+          "client_id": "968434609833-h88mi675t52o9h4emf9u1vjthf8er3m8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-2z7IQMFX_hJOav1LgICU_S3FRagJwSo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968434609833-h88mi675t52o9h4emf9u1vjthf8er3m8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
