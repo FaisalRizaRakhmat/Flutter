@@ -96,12 +96,12 @@ class _MyHomePageState extends State<MyHomePage> {
         mapView.onCameraChanged.listen((cam) => _updateRestaurantsAroundUser());
     compositeSubscription.add(sub);
 
-    //4. Listen for toolbar actions
-    sub = mapView.onToolbarAction.listen((id) {
-      if (id == 1) {
-        mapView.dismiss();
-      }
-    });
+//    //4. Listen for toolbar actions
+//    sub = mapView.onToolbarAction.listen((id) {
+//      if (id == 1) {
+//        mapView.dismiss();
+//      }
+//    });
     compositeSubscription.add(sub);
   }
 
