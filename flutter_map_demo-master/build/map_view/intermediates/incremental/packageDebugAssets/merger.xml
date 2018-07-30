@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/emobile/Documents/tools/flutter/.pub-cache/hosted/pub.dartlang.org/map_view-0.0.14/android/src/main/assets"/><source path="/Users/emobile/Documents/GitHub/Flutter/flutter_map_demo-master/build/map_view/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/emobile/Documents/tools/flutter/.pub-cache/hosted/pub.dartlang.org/map_view-0.0.14/android/src/debug/assets"/></dataSet></merger>
