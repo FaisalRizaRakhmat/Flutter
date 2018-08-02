@@ -77,15 +77,16 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Future _addFavorite() async {
     //1. Show the map
-//    mapView.show(
-//        new MapOptions(
-//            showUserLocation: true,
-//            //title: "Choose a favorite",
-//            initialCameraPosition: new CameraPosition(new Location(45.512287, -122.645913), 18.0)),
-//        toolbarActions: <ToolbarAction>[new ToolbarAction("Close", 0)]
-//    );
+    mapView.show(
+        new MapOptions(
+            showUserLocation: true,
+            title: "Choose a favorite",
+            initialCameraPosition: new CameraPosition(new Location(45.512287, -122.645913), 18.0)
+        ),
+        toolbarActions: <ToolbarAction>[new ToolbarAction("Close", 0)]
+    );
 
-  mapView.show(new MapOptions(showUserLocation: true));
+//  mapView.show(new MapOptions(showUserLocation: true));
 
     //2. Listen for the onMapReady
     var sub = mapView.onMapReady.listen((_) => _updateRestaurantsAroundUser());
