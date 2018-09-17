@@ -1,0 +1,28 @@
+PODS:
+  - contacts_service (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - permissions (0.1.2):
+    - Flutter
+
+DEPENDENCIES:
+  - contacts_service (from `.symlinks/plugins/contacts_service/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+  - permissions (from `.symlinks/plugins/permissions/ios`)
+
+EXTERNAL SOURCES:
+  contacts_service:
+    :path: ".symlinks/plugins/contacts_service/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  permissions:
+    :path: ".symlinks/plugins/permissions/ios"
+
+SPEC CHECKSUMS:
+  contacts_service: 3d584b5457e56df4e68608a765b0dfc88b80479c
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  permissions: d2939651e4c1b3c2d49dba7e18bbaaf8b9c7d99e
+
+PODFILE CHECKSUM: 7765ea4305eaab0b3dfd384c7de11902aa3195fd
+
+COCOAPODS: 1.5.2

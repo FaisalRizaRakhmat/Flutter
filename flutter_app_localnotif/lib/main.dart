@@ -28,11 +28,9 @@ class _MyAppState extends State<MyApp> {
     var initializationSettingsAndroid =
     new AndroidInitializationSettings('app_icon');
     var initializationSettingsIOS = new IOSInitializationSettings();
-    var initializationSettings = new InitializationSettings(
-        initializationSettingsAndroid, initializationSettingsIOS);
+    var initializationSettings = new InitializationSettings(initializationSettingsAndroid, initializationSettingsIOS);
     flutterLocalNotificationsPlugin = new FlutterLocalNotificationsPlugin();
-    flutterLocalNotificationsPlugin.initialize(initializationSettings,
-        selectNotification: onSelectNotification);
+    flutterLocalNotificationsPlugin.initialize(initializationSettings, selectNotification: onSelectNotification);
   }
 
   @override
